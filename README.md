@@ -1,0 +1,2 @@
+# SampleLongPress
+UnityのuGUIでスクロール中にボタンの長押しをするスクリプトのサンプルです。
