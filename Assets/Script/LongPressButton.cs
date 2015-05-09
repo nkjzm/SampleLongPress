@@ -58,7 +58,7 @@ IPointerUpHandler
 	public void OnPointerUp (PointerEventData eventData)
 	{
 		// 押下状態が続いている(isDrag:true)なら何もしない
-		if (scroll.CheckPressedStill (this))
+		if ((scroll??(scroll = FindObjectOfType<LongPressScroll>())).CheckPressedStill (this))
 			return;
 		EndPress ();
 	}

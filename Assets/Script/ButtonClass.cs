@@ -11,7 +11,7 @@ public class ButtonClass : MonoBehaviour {
 	}
 
 	void Update () {
-		Debug.Log (img.color);
+		// 1秒かけて画像を元の色に戻す
 		img.color += Color.white * Time.deltaTime;
 	}
 
